@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeremías Ruiz | Médico & Investigador</title>
+    <!-- metas -->
+    <meta name="keywords" content="Medicine, Anatomy, Artificial inteligence, Augemented reality, Python">
+    <meta name="description"
+        content="Jeremías Ruiz is a doctor, researcher and teacher in the field of medical science. He is also a developer in Python languaje">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery-2.1.4.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light fixed-top pt-0">
+        <div class="container-fluid navbar-bg">
+            <a class="navbar-brand navbar-brand-self" href="#">jr</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title offcanvas-title-self" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body offcanvas-body-self">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-self" href="./pages/about.html">acerca de mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-self" href="./pages/articulos.html">articulos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-self" href="./pages/contact.html">contactame</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="vh-100 mt-5 container-max d-flex flex-column align-items-center justify-content-center">
+        <div class="mt-5">
+            <h1 class="text-center">Jeremías Ruiz</h1>
+            <h2 class="text-center">Médico & Investigador</h2>
+        </div>
+        <video class="img-fluid hero_vid col col-xl-6" autoplay loop muted>
+            <source src="./assets/img/home--herocontent.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+    </header>
+
+
+    <section class="container-max d-flex flex-column flex-md-row py-5 line">
+
+        <div class="container col-md-5 mb-5 mb-md-0 ">
+            <div class="sticky-about">
+                <h2>hola, soy Jeremías</h2>
+                <p>Me defino como una persona curiosa y ávida por el conocimiento. Me desarrollo en el campo de las
+                    Ciencias Médicas, la Anatomía y la computación.
+                </p>
+                <p>Este último campo ha tomado una gran relevancia en el último período y pretendo especializarme en el
+                    área de Informática Médica.
+                </p>
+                <a href="./pages/about.html"><button type="button" class="btn btn-primary">Más acerca de mi</button></a>
+
+            </div>
+        </div>
+        <aside class="container col-md-5">
+            <div class="post_container">
+                <h4>lee los últimos artículos</h4>
+
+                <a href="./pages/post.html">
+                    <div class="recent_post">
+                        <p class="tag_post">Anatomía | Realidad Aumentada | Pedagogía</p>
+                        <p class="title_post">Realidad Aumentada en Anatomía</p>
+                    </div>
+                </a>
+                <a href="./pages/post.html">
+                    <div class="recent_post">
+                        <p class="tag_post">Python | OpenCV | RMI</p>
+                        <p class="title_post">Avances en Resonancia Magnética con OpenCV</p>
+                    </div>
+                </a>
+                <a href="./pages/post.html">
+                    <div class="recent_post">
+                        <p class="tag_post">motion graphics | after effects</p>
+                        <p class="title_post">Una reseña artística en medicina: motion-graphics en modelo anatómico 3D
+                        </p>
+                    </div>
+                </a>
+
+
+
+            </div>
+            <div class="post_container">
+                <h4>próximos eventos</h4>
+
+
+                <div class="recent_post">
+                    <p class="tag_post">04/03 | coderhouse</p>
+                    <p class="title_post">Entrega de Trabajo Final</p>
+                </div>
+
+
+
+                <div class="recent_post">
+                    <p class="tag_post">07/03 | FCM-UNR</p>
+                    <p class="title_post">Inicio de Ciclo Lectivo</p>
+                </div>
+
+
+                <div class="recent_post">
+                    <p class="tag_post">25/12 | Casa</p>
+                    <p class="title_post">Navidad</p>
+                </div>
+
+
+
+            </div>
+
+        </aside>
+
+    </section>
+
+
+    <footer class="container-fluid footer-wrapper">
+        <div class="container-max footer py-5">
+            <div class="d-flex flex-column flex-md-row">
+                <div class="container col-md-5">
+                    <div class="d-flex flex-row mb-4">
+                        <a href="https://www.linkedin.com/in/jeremiasruiz/" target="blank">
+                            <div class="redes me-2">
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                        </a>
+                        <a href="https://github.com/Jeremias-Ruiz" target="blank">
+                            <div class="redes">
+                                <i class="fa fa-github"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <p><q>The man who says he can and the man who says he can not, are both right.</q> - Confucius</p>
+                </div>
+                <ul class="container  col-md-5 fs-3">
+                    <li class=""><a href="./pages/about.html">acerca de mi</a></li>
+                    <li class=""><a href="./pages/articulos.html">artículos</a></li>
+                    <li class=""><a href="./pages/contact.html">contactame</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ------LINKEDIN LINK -->
+    <a href="https://www.linkedin.com/in/jeremiasruiz/" class="floating" target="blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+
+</body>
+
+</html>

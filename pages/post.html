@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realidad Aumentada en Anatomía | Jeremías Ruiz</title>
+    <meta name="keywords" content="Acá irían las key pertinentes al post que toque. Se manda desde el back">
+    <meta name="description" content="Acá iría la descripción pertinentes al post que toque. Se manda desde el back">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="../node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+    <script defer src="../node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+    <script defer src="../node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/png" />
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#list" data-bs-offset="400">
+    <nav class="navbar navbar-light fixed-top pt-0">
+        <div class="container-fluid navbar-bg">
+            <a class="navbar-brand navbar-brand-self" href="/">jr</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title offcanvas-title-self" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body offcanvas-body-self">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-self" href="./about.html">acerca de mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-self active" aria-current="page" href="#">articulos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-self" href="./contact.html">contactame</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="post__wrapper container-max d-flex flex-column flex-md-row justify-content-between">
+        <div class="post__left pe-md-4">
+            <!-- Breadcrumb -->
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../pages/articulos.html#all-articles">Artículos</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Realidad Aumentada en Anatomía</li>
+                </ol>
+            </nav>
+            <div class="">
+                <h1 class="post__title">Realidad Aumentada en Anatomía</h1>
+            </div>
+            <div class="">
+                <img class="img-fluid post_header-img" src="../assets/img/scientist-researcher.jpg"
+                    alt="Realidad aumentada en Anatomía">
+            </div>
+        </div>
+
+        <aside class="post__right post_container">
+            <a href="#">
+                <div class="recent_post">
+                    <p class="tag_post">medicina</p>
+                    <p class="title_post">¿Cómo medimos los médicos nuestro desempeño?</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="recent_post">
+                    <p class="tag_post">Python | OpenCV | RMI</p>
+                    <p class="title_post">Avances en Resonancia Magnética con OpenCV</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="recent_post">
+                    <p class="tag_post">motion graphics | after effects</p>
+                    <p class="title_post">Una reseña artística en medicina: motion-graphics en modelo anatómico 3D</p>
+                </div>
+            </a>
+
+        </aside>
+    </header>
+
+    <main
+        class="post__line post__wrapper post__main  container-max d-flex flex-column flex-md-row justify-content-between px-0">
+        <!-- internal menu phone -->
+        <div class="post_internal-menu sticky-internal-menu">
+            <nav id="list" class="navbar glass px-3">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#abstract">Abstract</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Artículo</a>
+                        <ul class="dropdown-menu bg-light glass">
+                            <li><a class="dropdown-item" href="#list-item-1">Introduction</a></li>
+                            <li><a class="dropdown-item" href="#list-item-2">Metodología</a></li>
+                            <li><a class="dropdown-item" href="#list-item-3">Experiencia</a></li>
+                            <li><a class="dropdown-item" href="#list-item-4">Resultados</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="post__left pe-md-4">
+            <section class="h-100 position-relative" id="abstract">
+                <div class="post_abstract">
+                    <div class="px-2 px-md-0 pe-md-4">
+                        <h3>Abstract</h3>
+                        <p>La innovación en la enseñanza de la anatomía y la fisiología puede verse favorecida con la implementación de las nuevas tecnologías de la información y la comunicación (TIC), como es el caso de la realidad aumentada (RA) y la realidad virtual (RV). El objetivo del presente artículo es analizar el impacto de la enseñanza con RA y RV, en alumnos de educación media superior en el proceso enseñanzaaprendizaje de las asignaturas de Anatomía y Fisiología. El texto es resultado de una investigación que empleó un enfoque mixto con uso del método de investigación-acción, donde se utilizó como instrumento principal un cuestionario adaptado del modelo de aceptación tecnológica (Davis, 1989). A manera de conclusión, los alumnos mejoran su proceso de enseñanza-aprendizaje con RA y RV mediante el aumento de la motivación hacia el desarrollo de competencias cognitivas, tales como la identificación de la planimetría humana.</p>
+                        <small>(Extraído de <a target="blank" href="http://www.scielo.org.mx/scielo.php?pid=S1665-26732019000100057&script=sci_arttext">scielo.org.mx/</a> )</small>
+                    </div>
+                </div>
+                <div class="scrollspy-example px-2 px-md-4 post__cap " tabindex="0">
+                    <h4 id="list-item-1" class="post__cap-title">Introducción</h4>
+                    <p class="post__cap-p">El uso de tecnologías emergentes o nuevas tecnologías de la información y la comunicación (TIC) en el campo educativo es un factor primordial para el desarrollo de modelos pedagógicos centrados en el alumno (Hernández, 2017). Es por eso que resulta relevante incrementar las habilidades digitales en los estudiantes y profesores para mejorar el desarrollo y construcción de las competencias educativas (Nolasco y Ramírez, 2011). La necesidad de incorporar nuevas tecnologías de enseñanza para las asignaturas de Anatomía y Fisiología recae en las características y tendencias actuales de la denominada educación 3.0 o web semántica (Salazar, 2011; Leiva y Mora, 2014), así como en el nuevo modelo educativo para la educación obligatoria (SEP, 2017), pues la interacción en tiempo real de los usuarios permitirá generar conocimientos, habilidades, valores y actitudes más adecuadas al contexto actual de la informática y la era digital, y, a su vez, mejorar las características en la construcción de conocimiento especializado acerca del cuerpo humano y su funcionamiento. Todo lo anterior corre en paralelo al posicionamiento de la actual reforma educativa, la cual demanda innovación, tanto en la didáctica como en la práctica docente (Morales, 2016).
+
+                        El término realidad aumentada puede tener distintas significaciones (Rolando, 2012), como puede ser sistema tecnológico o tecnología emergente. Para efectos del presente artículo, se empleó la definición de Heras y Villareal (2004), quienes la conciben como una tecnología que integra señales obtenidas del mundo real con las de objetos gráficos, generados por equipos de cómputo en tres dimensiones, los cuales permiten la coexistencia de objetos del mundo real y del mundo virtual en el ciberespacio
+                        
+                        Es así como surgió el objetivo de analizar el impacto de la enseñanza con realidad aumentada (RA) y realidad virtual (RV), en alumnos de educación media superior en el proceso enseñanzaaprendizaje de Anatomía y Fisiología. El objeto de estudio trata sobre el uso pedagógico de las tecnologías emergentes anteriormente señaladas, tratando de articular su evaluación y ejecución en el campo de las ciencias de la salud. De esta manera surgieron las siguientes preguntas de investigación: ¿Cómo influye la RA y la RV en el proceso de enseñanza-aprendizaje en los alumnos de educación media superior?, ¿qué impacto produce la enseñanza de Anatomía y Fisiología, mediante las realidades virtual y aumentada, en la percepción de los estudiantes de educación media superior?
+                        
+                        A manera de hipótesis, la enseñanza de la Anatomía y la Fisiología mediante RV y RA permite mejorar tanto los procesos de aprendizaje como la apreciación en cuanto a la utilidad y facilidad de las nuevas TIC, en al menos la mitad de los participantes. Finalmente se espera que el presente manuscrito pueda brindar un panorama más amplio sobre el uso de los sistemas electrónicos de última generación en la didáctica de diversos campos del conocimiento, en especial aquellos relacionados con las ciencias de la salud.</p>
+                    <h4 class="post__cap-title" id="list-item-2">Metodología</h4>
+                    <p class="post__cap-p">El tipo de metodología empleada fue de carácter mixto. La característica principal de los métodos mixtos es la combinación de la perspectiva cuantitativa y cualitativa -según Hamui-Suitton (2013)-, y, para efectos de esta investigación, se emplearon instrumentos de ambas naturalezas (cuali y cuanti). Asimismo se utilizó el método de investigación-acción, que presupone entender la enseñanza como un proceso de investigación; es decir, una ruta permanente de búsqueda (Bausela, s.d) en el campo de la investigación educativa. La investigación-acción ha sido empleada con diversos enfoques y perspectivas (Lewin, 1973).
+
+                        El presente texto elabora un estudio de tipo prospectivo, en el que, de acuerdo con Pineda (2007), la información se va registrando en la medida que va ocurriendo el fenómeno o los hechos programados para observar. Se trató de un estudio transversal, en el que el registro de datos se realiza en un tiempo único, pues su objetivo se centra en la descripción de variables y en el análisis de su comportamiento en un momento dado (Müggenburg y Pérez, 2007).</p>
+                    <h4 class="post__cap-title" id="list-item-3">Experiencia</h4>
+                    <p class="post__cap-p">La aplicación de la práctica pedagógica ocurrió en el semestre de agosto-diciembre de 2017, en la asignatura de Conocer Estructuras y Funciones Básicas del Cuerpo Humano, cuyo objetivo es que “el alumno comprenda los principios fundamentales de la anatomía y fisiología humana (concepto, divisiones, planimetría)” (DGB, 2009, p. 17).
+
+                        La intervención se dividió en cuatro fases, cuya programación respondió al método de investigación-acción (Restrepo, 2004), que comprende tres etapas: la reflexión del problema que se requiere transformar (empleo de nuevas TIC en la enseñanza de Anatomía y Fisiología); la recolección de información sobre el contexto (cuestionario TAM y escalas estimativas); la aplicación de acciones renovadoras (realidad aumentada y realidad Virtual). En la primera fase se realizó un diagnóstico. La evaluación consistió en una primer práctica con la ayuda de la aplicación Anatomy 4D (versión para Android) y un aula tipo STEM (Science, Technology, Engineering, Math). Anatomy 4D permite visualizar todos los sistemas y aparatos anatómicos del ser humano, mediante el uso de la RA. El sistema emplea una serie de marcadores o triggers, los cuales son gratuitos y descargables en la página oficial de la aplicación; hasta el momento sólo existen dos, una donde se visualiza el ser humano completo y la otra en donde se puede ver el corazón y sus funciones (Fotografía 1).</p>
+                    <h4 class="post__cap-title" id="list-item-4">Resultados</h4>
+                    <p class="post__cap-p">En la primer fase de la investigación se indagaron las impresiones de los alumnos mediante un diario de clase, que Zabalza (2004) define como una narración realizada por los docentes, de tal manera que el marco de la información tiene por objeto de estudio los hechos ocurridos en el aula y durante el momento de la clase. El registro de datos fue al momento de realizar la práctica de planimetría del cuerpo humano y del corazón; la pregunta detonadora fue ¿qué impresión te dejó esta práctica? Algunos de los comentarios obtenidos que se consideraron de mayor significancia son presentados en la Tabla 1, dichos datos fueron codificados y asociados a categorías centrales, mediante el uso del software Atlasti (Versión 1.0.50 para Macintosh), asimismo se realizó una red semántica sobre el análisis de la unidad hermenéutica. Se recibieron un total de 27 comentarios. Los criterios empleados para la discriminación de los mismos fueron: comentarios directos de la app, sensaciones producidas por su uso y evaluación de la clase. Los seleccionados se muestran en la Tabla 4.</p>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <script src="../assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
